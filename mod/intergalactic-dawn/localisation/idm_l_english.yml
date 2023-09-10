@@ -1,0 +1,25 @@
+﻿l_english:
+
+idm_origin_comunist: "Comunist"
+idm_origin_comunist_desc: "Comunist origin"
+
+idm_origin_spies: "Intelligence"
+idm_origin_spies_desc: "Intelligence origin"
+
+idm_origin_mercenaries: "Mercenaries"
+idm_origin_mercenaries_desc: "Mercenaries origin"
+
+idm_origin_speedy: "Alta Velocidade"
+idm_origin_speedy_desc: "Seu império adora viver sob a emoção de estar em Alta Velocidade"
+
+idm_pm_ultra_rich: "Minerais de Qualidade Excepcional"
+idm_pm_ultra_rich_desc: "A qualidade excepcional dos minerais na crosta deste planeta fornece uma oportunidade verdadeiramente incrível de mineração."
+idm_concept_pm_ultra_rich: "$idm_pm_ultra_rich$"
+idm_concept_pm_ultra_rich_desc: "$idm_pm_ultra_rich_desc$"
+
+idm_origin_miners: "Miners"
+idm_origin_miners_desc: "Miners origin"
+idm_origin_miners_effects: "- $HOMEWORLD$$TABBED_NEW_LINE$- Mundo Árido (tamanho: £planetsize£ 30)$TABBED_NEW_LINE$- $PLANETARY_FEATURES$ ['idm_concept_pm_ultra_rich']"
+idm_origin_miners_negative_effects: "- ['concept_guaranteed_colonies']: Substituídos por um $matter_decompressor_ruined$ e por $NAME_Ancient_Mining_Drones$"
+idm_possible_origin_miners: "Possuir tipo de espécie: $LITHOID$"
+idm_start_screen_origin_miners: "Em nossa odisseia pelo cosmos, abraçamos nossa vocação para a mineração, uma força que molda nossa jornada.\n\nO Antigo planeta árido, outrora lar, não pode mais nos conter. A estagnação se aproxima, e sabemos que devemos buscar o futuro ou seremos surpreendidos por ele.\n\nNo Abismo, encontramos relíquias de um mundo misterioso. Transformamos destroços em avanços tecnológicos, nos preparando para a próxima fase. Vamos explorar, aprender e proteger.\n\nNosso império, moldado pela mineração, liderará. Extrairemos recursos essenciais enquanto asseguramos um futuro próspero. Com coragem, enfrentaremos desafios cósmicos. Cada asteróide minerado nos conduzirá à nossa ascensão na vastidão do universo."

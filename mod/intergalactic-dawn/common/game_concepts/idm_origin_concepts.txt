@@ -1,0 +1,3 @@
+idm_concept_pm_ultra_rich = {
+	icon = "gfx/interface/icons/deposits/d_mineral_fields.dds"
+}

@@ -1,0 +1,15 @@
+# namespace = id_mod
+# planet_event = {
+# 	id = id_mod.1
+# 	hide_window = yes
+# 	is_triggered_only = yes
+# 	pre_triggers = {
+# 		is_capital = yes
+# 	}
+# 	immediate = {
+# 		add_modifier = {
+# 			modifier = mineral_rich
+# 			days = -1
+# 		}
+# 	}
+# }

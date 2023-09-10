@@ -1,0 +1,9 @@
+# Ocean Paradise - normal
+part = {
+	location = 0
+	localization = "idm_start_screen_origin_miners"
+
+	trigger = {
+		has_origin = idm_origin_miners
+	}
+}
