@@ -102,7 +102,7 @@ idm_origin_miners = {
 
 	modifier = {
 		district_mining_max = 3
-    	country_base_minerals_produces_add = 0.25
+    country_base_minerals_produces_add = 0.25
 		# mining_district_buildings_add = 6
 		# planet_jobs_minerals_produces_mult = 0.25
 		# country_minerals_produces_mult = 0.25
@@ -112,7 +112,7 @@ idm_origin_miners = {
 idm_origin_speedy = {
 	is_origin = yes
 	icon = "gfx/interface/icons/origins/origins_default.dds"
-	picture = GFX_origin_miners
+	picture = GFX_origin_speedy
 	# starting_colony = pc_arid
 	# habitability_preference = pc_arid
 	# initializers = { idm_arid_miners_start }
