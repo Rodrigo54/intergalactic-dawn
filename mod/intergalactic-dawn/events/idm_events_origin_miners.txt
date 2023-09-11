@@ -1,0 +1,80 @@
+namespace = idm_events_origin_miners
+
+
+country_event = {
+  id = idm_events_origin_miners.1
+  hide_window = yes
+  is_triggered_only = yes
+
+  immediate = {
+    add_research_option = tech_space_mining_1    
+    capital_scope = {
+      planet_event = { id = idm_events_origin_miners.2 }
+    }
+	}
+}
+
+planet_event = {
+  id = idm_events_origin_miners.2
+  hide_window = yes
+  is_triggered_only = yes
+
+  pre_triggers = {
+		has_owner = yes
+		is_homeworld = yes
+		is_capital = yes
+	}
+
+  immediate = {
+    add_modifier = {
+      modifier = idm_pm_ultra_rich
+      days = -1
+    }
+  }
+}
+
+ship_event = {
+	id = idm_events_origin_miners.3
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		owner = { has_origin = idm_origin_miners }
+		solar_system = {
+			has_star_flag = ruined_matter_decompressor_system
+      any_system_megastructure = { is_megastructure_type = matter_decompressor_ruined }
+			NOT = { has_star_flag = idm_matter_decompressor_system_occupied }
+		}
+	}
+
+	immediate = {
+		solar_system = {
+			set_star_flag = idm_matter_decompressor_system_occupied
+		}
+		owner = {
+			country_event = {
+				id = idm_events_origin_miners.4
+			}
+		}
+	}
+}
+
+# On Occupying the System with Quantum Catapult (Country Event)
+country_event = {
+	id = idm_events_origin_miners.4
+	title = idm_events_origin_miners.4.title
+	desc = idm_events_origin_miners.4.desc
+  picture = GFX_evt_mining_station
+	show_sound = event_radio_chatter
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_origin = idm_origin_miners
+	}
+
+	option = {
+		name = idm_events_origin_miners.4.a
+		add_resource = { minerals = 1500 }
+	}
+}

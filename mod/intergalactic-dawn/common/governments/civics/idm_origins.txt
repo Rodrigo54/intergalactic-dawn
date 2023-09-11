@@ -36,14 +36,14 @@ idm_origin_spies = {
 		base = 5
 	}
 	modifier = {
-		# envoys_add = 1
+		envoys_add = 1
 		intel_decryption_mult = 0.5
 		intel_encryption_mult = 0.5
-		intel_gain_speed = 0.5
-		ship_tracking_mult = 0.5
+		spy_network_daily_value_mult = 0.5
+		ship_tracking_mult = 0.05
 		ship_cloaking_strength_add = 1
-		spy_network_daily_value_mult = 0.20
-		first_contact_speed_mult = 0.20
+		intel_gain_speed = 0.2
+		first_contact_speed_mult = 0.2
 	}
 }
 
@@ -52,6 +52,9 @@ idm_origin_mercenaries = {
 	icon = "gfx/interface/icons/origins/origins_default.dds"
 	picture = GFX_origin_mercenaries
 	possible = {
+    ethics = {
+			NOT = {	value = ethic_gestalt_consciousness	}
+		}
 		ethics = {
 			OR = {
 				value = ethic_fanatic_militarist
@@ -63,9 +66,21 @@ idm_origin_mercenaries = {
 		base = 5
 	}
 	modifier = {
+
+		country_naval_cap_mult = 0.2
 		army_damage_mult = 0.25
-		ship_armor_damage_mult = 0.25
-		ship_accuracy_mult = 0.1
+		army_morale_damage_mult = 0.25
+		army_collateral_damage_mult = 0.50
+		starbase_shipyard_build_speed_mult = 0.1
+		ship_weapon_damage = -0.1
+		starbase_shipyard_build_cost_mult = -0.1
+		
+		planet_stability_add = 10
+		planet_crime_mult = 0.5
+
+		# ship_armor_damage_mult = 0.25
+		# ship_accuracy_mult = 0.1
+
 		admiral_exp_gain = 0.25
 		general_exp_gain = 0.25
 		country_enclave_capacity_add = 1
@@ -76,11 +91,8 @@ idm_origin_miners = {
 	is_origin = yes
 	icon = "gfx/interface/icons/origins/origins_default.dds"
 	picture = GFX_origin_miners
-
 	description = idm_origin_miners_effects
 	negative_description = idm_origin_miners_negative_effects
-	
-
 	possible = {
 		species_class = {
 			OR = {
@@ -89,20 +101,19 @@ idm_origin_miners = {
 			}
 		}
 	}
-
 	starting_colony = pc_arid
 	habitability_preference = pc_arid
-	initializers = { idm_arid_miners_start }
+	initializers = {
+		idm_arid_miners_start
+	}
 	non_colonizable_planet_class_neighbor = yes
 	max_once_global = yes
-
 	random_weight = {
 		base = 5
 	}
-
 	modifier = {
 		district_mining_max = 3
-    country_base_minerals_produces_add = 0.25
+		country_base_minerals_produces_add = 0.25
 		# mining_district_buildings_add = 6
 		# planet_jobs_minerals_produces_mult = 0.25
 		# country_minerals_produces_mult = 0.25
@@ -116,21 +127,15 @@ idm_origin_speedy = {
 	# starting_colony = pc_arid
 	# habitability_preference = pc_arid
 	# initializers = { idm_arid_miners_start }
-
 	random_weight = {
 		base = 5
 	}
-
 	modifier = {
-		ship_speed_mult = 0.50
-		ship_evasion_mult = 0.50
-		science_ship_survey_speed = 0.25
-		ship_jumpdrive_cooldown_mult = -0.4
-		ship_ftl_jumpdrive_range_mult = 0.50
-		ship_windup_mult = -0.8
-		# speed
-		# district_mining_max = 4
-		# planet_jobs_minerals_produces_mult = 0.25
-		# country_minerals_produces_mult = 0.25
+		ship_speed_mult = 0.1
+		ship_evasion_mult = 0.05
+		# science_ship_survey_speed = 0.25
+		ship_jumpdrive_cooldown_mult = -0.1
+		ship_ftl_jumpdrive_range_mult = 0.3
+		ship_windup_mult = -0.1
 	}
 }

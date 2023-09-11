@@ -62,10 +62,10 @@ idm_arid_miners_start = {
 		starting_planet = yes
 		init_effect = {
 			prevent_anomaly = yes
-			add_modifier = {
-				modifier = idm_pm_ultra_rich
-				days = -1
-			}
+			# add_modifier = {
+			# 	modifier = idm_pm_ultra_rich
+			# 	days = -1
+			# }
 		}
 	}
 
@@ -112,22 +112,3 @@ idm_arid_miners_start = {
 	}
 
 }
-
-# arid_miners_neighbor = {
-# 	class = "rl_standard_stars"
-
-# 	# Star
-# 	planet = {
-# 		class = star
-# 		orbit_distance = 0
-# 		orbit_angle = 0
-# 		size = 30
-# 		has_ring = no
-# 	}
-
-# 	change_orbit = 30
-# 	planet = {
-# 		count = 5
-# 		size = { min = 10 max = 30 }
-# 	}
-# }

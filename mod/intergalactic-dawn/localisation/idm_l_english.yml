@@ -3,12 +3,6 @@
 idm_origin_comunist: "Comunist"
 idm_origin_comunist_desc: "Comunist origin"
 
-idm_origin_spies: "Intelligence"
-idm_origin_spies_desc: "Intelligence origin"
-
-idm_origin_mercenaries: "Mercenaries"
-idm_origin_mercenaries_desc: "Mercenaries origin"
-
 idm_origin_speedy: "Alta Velocidade"
 idm_origin_speedy_desc: "Seu império adora viver sob a emoção de estar em Alta Velocidade"
 
@@ -23,3 +17,11 @@ idm_origin_miners_effects: "- $HOMEWORLD$$TABBED_NEW_LINE$- Mundo Árido (tamanh
 idm_origin_miners_negative_effects: "- ['concept_guaranteed_colonies']: Substituídos por um $matter_decompressor_ruined$ e por $NAME_Ancient_Mining_Drones$"
 idm_possible_origin_miners: "Possuir tipo de espécie: $LITHOID$"
 idm_start_screen_origin_miners: "Em nossa odisseia pelo cosmos, abraçamos nossa vocação para a mineração, uma força que molda nossa jornada.\n\nO Antigo planeta árido, outrora lar, não pode mais nos conter. A estagnação se aproxima, e sabemos que devemos buscar o futuro ou seremos surpreendidos por ele.\n\nNo Abismo, encontramos relíquias de um mundo misterioso. Transformamos destroços em avanços tecnológicos, nos preparando para a próxima fase. Vamos explorar, aprender e proteger.\n\nNosso império, moldado pela mineração, liderará. Extrairemos recursos essenciais enquanto asseguramos um futuro próspero. Com coragem, enfrentaremos desafios cósmicos. Cada asteróide minerado nos conduzirá à nossa ascensão na vastidão do universo."
+
+idm_origin_spies: "Contrainteligência"
+idm_origin_spies_desc: "Essa civilização é obcecada em contrainteligência, eles possuem um receio quase irracional de estarem sendo manipulados por interesses alienígenas. Somente uma nação sem interferência em seus assuntos internos pode ser uma nação verdadeiramente livre e independente."
+idm_start_screen_origin_spies: "Nossa civilização é moldada por uma profunda desconfiança em relação às forças externas e possui uma determinação inabalável em manter nossa soberania a qualquer custo. Desde os primeiros passos da nossa história, desenvolvemos uma mentalidade de vigilância constante, acreditando que até mesmo a menor interferência alienígena pode comprometer nossa liberdade e autonomia.\n\nPossuímos agências de contrainteligência altamente desenvolvidas, onde espiões e agentes infiltrados trabalham incansavelmente para proteger os segredos e a integridade da nação. Afinal de contas, as conspirações alienígenas estão em todos os cantos e a única maneira de preservar nossa verdadeira independência é manter um controle estrito sobre nossos assuntos internos. Especialmente agora com a descoberta da rede de hiperestradas que representa a possibilidade de encontrarmos outras civilizações."
+
+idm_origin_mercenaries: "Milícias"
+idm_origin_mercenaries_desc: "Nesta sociedade boa parte da segurança pública e defesa militar é feita por iniciativa da própria população civil, o estado estimula a venda de armas e munições para todos os seus cidadãos de forma muito acessível. O recrutamento de unidades para as forças armadas é muito mais fácil, permitindo que eles reúnam exércitos e frotas numerosas, porém, por não serem profissionais, as suas frotas tendem a ser mais fracas."
+idm_start_screen_origin_mercenaries: "Nós sempre valorizamos a autonomia e a liberdade individual acima de tudo. Cada cidadão tem o direito de portar armas de fogo desde cedo, com poucas restrições. Isso levou a uma cultura onde o conceito de autodefesa é amplamente aceito, mas também resultou em conflitos frequentes devido ao uso indevido de armas.\n\nAo longo de nossa história, não desenvolvemos forças armadas centralizadas. Em vez disso, confiamos em uma série de milícias independentes. Cada comunidade, cidade ou região possui sua própria milícia, composta por cidadãos voluntários que se organizam em grupos armados para proteger suas comunidades e interesses.\n\nÉ claro que a fácil disponibilidade de armas e a cultura de individualismo levaram a episódios frequentes de violência. Conflitos entre comunidades vizinhas, disputas territoriais e desentendimentos pessoais frequentemente resultaram em confrontos armados. Apesar da falta de um exército profissional, as milícias independentes desempenham um papel central nesses conflitos.\n\nMas onde olhares externos podem enxergar barbárie, nós enxergamos força e honra, devido à essa concorrência marcial ferrenha, nossa sociedade conseguiu avançar tecnologicamente e alcançar a idade espacial. Agora, unidos sob uma bandeira e um objetivo comum, nós descobrimos a rede de hiperestradas, que expandirão para novos mundos as oportunidades de negócios e domínios de todas as comunidades de nosso lar."

@@ -1,0 +1,14 @@
+namespace = idm_events_origin_speedy
+
+country_event = {
+  id = idm_events_origin_speedy.1
+  hide_window = yes
+  is_triggered_only = yes
+
+  immediate = {
+    add_research_option = tech_automated_exploration
+    # capital_scope = {
+    #   planet_event = { id = idm_events_origin_miners.2 }
+    # }
+	}
+}
