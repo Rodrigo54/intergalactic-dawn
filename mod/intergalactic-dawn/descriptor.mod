@@ -1,4 +1,4 @@
-name="Alvorada Intergaláctica"
+name="Intergalactic Dawn"
 path="mod/intergalactic-dawn"
 supported_version="3.9.*"
 tags={
