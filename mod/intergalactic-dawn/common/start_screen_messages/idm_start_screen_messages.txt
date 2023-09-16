@@ -1,26 +1,26 @@
 part = {
-	location = 0
-	localization = "idm_start_screen_origin_miners"
+  location = 0
+  localization = "idm_start_screen_origin_miners"
 
-	trigger = {
-		has_origin = idm_origin_miners
-	}
+  trigger = {
+    has_origin = idm_origin_miners
+  }
 }
 
 part = {
-	location = 0
-	localization = "idm_start_screen_origin_spies"
+  location = 0
+  localization = "idm_start_screen_origin_spies"
 
-	trigger = {
-		has_origin = idm_origin_spies
-	}
+  trigger = {
+    has_origin = idm_origin_spies
+  }
 }
 
 part = {
-	location = 0
-	localization = "idm_start_screen_origin_mercenaries"
+  location = 0
+  localization = "idm_start_screen_origin_mercenaries"
 
-	trigger = {
-		has_origin = idm_origin_mercenaries
-	}
+  trigger = {
+    has_origin = idm_origin_mercenaries
+  }
 }

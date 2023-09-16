@@ -7,8 +7,10 @@ country_event = {
 
   immediate = {
     add_research_option = tech_automated_exploration
+    set_country_flag = jaunted_traveler_secret_revealed
+    
     # capital_scope = {
     #   planet_event = { id = idm_events_origin_miners.2 }
     # }
-	}
+  }
 }

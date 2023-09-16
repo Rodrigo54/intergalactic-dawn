@@ -1,16 +1,16 @@
 namespace = idm_game_start
 event = {
-	id = idm_game_start.1
-	hide_window = yes
-	is_triggered_only = yes
-	immediate = {
+  id = idm_game_start.1
+  hide_window = yes
+  is_triggered_only = yes
+  immediate = {
     every_playable_country = {
-			limit = { has_origin = idm_origin_miners }
-			country_event = { id = idm_events_origin_miners.1 }
-		}   
+      limit = { has_origin = idm_origin_miners }
+      country_event = { id = idm_events_origin_miners.1 }
+    }   
     every_playable_country = {
-			limit = { has_origin = idm_origin_speedy }
-			country_event = { id = idm_events_origin_speedy.1 }
-		}
-	}
+      limit = { has_origin = idm_origin_speedy }
+      country_event = { id = idm_events_origin_speedy.1 }
+    }
+  }
 }

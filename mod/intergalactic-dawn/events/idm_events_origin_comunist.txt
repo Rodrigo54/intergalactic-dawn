@@ -11,7 +11,7 @@ country_event = {
     capital_scope = {
       planet_event = { id = idm_events_origin_comunist.2 }
     }
-	}
+  }
 }
 
 
@@ -21,10 +21,10 @@ planet_event = {
   is_triggered_only = yes
 
   pre_triggers = {
-		has_owner = yes
-		is_homeworld = yes
-		is_capital = yes
-	}
+    has_owner = yes
+    is_homeworld = yes
+    is_capital = yes
+  }
 
   immediate = {
     add_modifier = {
