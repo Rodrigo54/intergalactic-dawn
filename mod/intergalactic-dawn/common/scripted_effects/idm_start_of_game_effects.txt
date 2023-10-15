@@ -1,0 +1,14 @@
+# generate_home_planet_origin_miners = {
+# 	if = {
+# 		limit = {
+# 			owner = {
+# 				has_origin = origin_miners
+# 			}
+# 		}
+# 		owner = {
+# 			capital_scope = {
+# 				add_modifier = { modifier = ultra_rich days = 7200 }
+# 			}
+# 		}
+# 	}
+# }

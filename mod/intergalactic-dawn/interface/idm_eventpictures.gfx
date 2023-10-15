@@ -1,0 +1,27 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_origin_comunist"
+		texturefile = "gfx/event_pictures/origins/idm_origin_comunist.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_origin_spies"
+		texturefile = "gfx/event_pictures/origins/idm_origin_spies.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_origin_mercenaries"
+		texturefile = "gfx/event_pictures/origins/idm_origin_mercenaries.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_origin_miners"
+		texturefile = "gfx/event_pictures/origins/idm_origin_miners.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_origin_speedy"
+		texturefile = "gfx/event_pictures/origins/idm_origin_speedy.dds"
+		alwaystransparent = yes
+	}
+}

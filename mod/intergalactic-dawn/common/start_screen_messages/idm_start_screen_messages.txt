@@ -1,0 +1,43 @@
+part = {
+  location = 0
+  localization = "idm_start_screen_origin_speedy"
+
+  trigger = {
+    has_origin = idm_origin_speedy
+    has_country_flag = idm_country_flag
+		has_country_flag = custom_start_screen
+  }
+}
+
+part = {
+  location = 0
+  localization = "idm_start_screen_origin_miners"
+
+  trigger = {
+    has_origin = idm_origin_miners
+    has_country_flag = idm_country_flag
+		has_country_flag = custom_start_screen
+  }
+}
+
+part = {
+  location = 0
+  localization = "idm_start_screen_origin_spies"
+
+  trigger = {
+    has_origin = idm_origin_spies
+    has_country_flag = idm_country_flag
+		has_country_flag = custom_start_screen
+  }
+}
+
+part = {
+  location = 0
+  localization = "idm_start_screen_origin_mercenaries"
+
+  trigger = {
+    has_origin = idm_origin_mercenaries
+    has_country_flag = idm_country_flag
+		has_country_flag = custom_start_screen
+  }
+}

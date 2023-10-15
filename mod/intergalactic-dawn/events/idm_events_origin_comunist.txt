@@ -1,0 +1,35 @@
+namespace = idm_events_origin_comunist
+
+
+country_event = {
+  id = idm_events_origin_comunist.1
+  hide_window = yes
+  is_triggered_only = yes
+
+  immediate = {
+    add_research_option = tech_space_mining_1    
+    capital_scope = {
+      planet_event = { id = idm_events_origin_comunist.2 }
+    }
+  }
+}
+
+
+planet_event = {
+  id = idm_events_origin_comunist.2
+  hide_window = yes
+  is_triggered_only = yes
+
+  pre_triggers = {
+    has_owner = yes
+    is_homeworld = yes
+    is_capital = yes
+  }
+
+  immediate = {
+    add_modifier = {
+      modifier = idm_pm_ultra_rich
+      days = -1
+    }
+  }
+}
