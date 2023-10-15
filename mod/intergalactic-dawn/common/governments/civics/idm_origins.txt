@@ -10,6 +10,9 @@ idm_origin_comunist = {
       }
     }
   }
+  flags = { 
+    idm_country_flag
+  }
   random_weight = {
     base = 5
   }
@@ -31,6 +34,10 @@ idm_origin_spies = {
         value = ethic_xenophile
       }
     }
+  }
+  flags = { 
+    custom_start_screen 
+    idm_country_flag
   }
   random_weight = {
     base = 5
@@ -61,6 +68,10 @@ idm_origin_mercenaries = {
         value = ethic_militarist
       }
     }
+  }
+  flags = { 
+    custom_start_screen 
+    idm_country_flag
   }
   random_weight = {
     base = 5
@@ -108,6 +119,10 @@ idm_origin_miners = {
   }
   non_colonizable_planet_class_neighbor = yes
   max_once_global = yes
+  flags = { 
+    custom_start_screen 
+    idm_country_flag
+  }
   random_weight = {
     base = 5
   }
@@ -127,6 +142,10 @@ idm_origin_speedy = {
   # starting_colony = pc_arid
   # habitability_preference = pc_arid
   # initializers = { idm_arid_miners_start }
+  flags = { 
+    custom_start_screen 
+    idm_country_flag
+  }
   random_weight = {
     base = 5
   }
